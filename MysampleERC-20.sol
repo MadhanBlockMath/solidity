@@ -100,11 +100,4 @@ contract MyERC20 is ownable{
             AccountFrozen[_person] = Freezed;
             emit Freeze(_person, Freezed);
         }
-
-
-        
-
-
-
-
 }
